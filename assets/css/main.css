@@ -2016,7 +2016,7 @@ input, select, textarea {
 						top: 0;
 						left: 0;
 						background: url("images/overlay.png");
-						width: 17em;
+						width: 7em;
 						height: 100%;
 						z-index: 1;
 					}
