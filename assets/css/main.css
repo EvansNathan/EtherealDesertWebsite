@@ -1989,10 +1989,10 @@ input, select, textarea {
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
 				flex-direction: row;
-				-moz-align-items: flex-end;
-				-webkit-align-items: flex-end;
-				-ms-align-items: flex-end;
-				align-items: flex-end;
+				-moz-align-items: center;
+				-webkit-align-items: center;
+				-ms-align-items: center;
+				align-items: center;
 			}
 
 				#main > .panel.intro .pic {
