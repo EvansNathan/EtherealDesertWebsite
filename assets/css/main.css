@@ -1306,7 +1306,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/pic05.jpg");
+		background: linear-gradient(225deg, #7abcf4 0%, #0a024d 100%);
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -2005,18 +2005,17 @@ input, select, textarea {
 					-moz-flex-shrink: 0;
 					-webkit-flex-shrink: 0;
 					-ms-flex-shrink: 0;
-					flex-shrink: 0;
+					flex-shrink: 1.11112;
 					width: 100%;
 					height: 100%;
 				}
 
 					#main > .panel.intro .pic:before {
 						content: '';
-						position: absolute;
+						position: relative;
 						top: 0;
 						left: 0;
-						background: url("images/overlay.png");
-						width: 17em;
+						width: 20em;
 						height: 100%;
 						z-index: 1;
 					}
@@ -2024,7 +2023,6 @@ input, select, textarea {
 					#main > .panel.intro .pic img {
 						position: relative;
 						display: block;
-						position: absolute;
 						top: 0;
 						left: 0;
 						width: 100%;
@@ -2037,6 +2035,7 @@ input, select, textarea {
 						-webkit-object-position: center;
 						-ms-object-position: center;
 						object-position: center;
+
 					}
 
 					#main > .panel.intro .pic .arrow {
@@ -2045,10 +2044,10 @@ input, select, textarea {
 						right: 0;
 						top: 50%;
 						margin-top: -1.375em;
-						width: 2.75em;
+						width: 2em;
 						height: 2.75em;
 						background: #000;
-						background: rgba(0, 0, 0, 0.75);
+						background: rgba(0, 0, 0, 0.50);
 						color: #ffffff;
 						text-align: center;
 						line-height: 2.75em;
@@ -2072,7 +2071,7 @@ input, select, textarea {
 						}
 
 					#main > .panel.intro .pic:hover .arrow {
-						width: 3em;
+						width: 2.5em;
 						padding-right: 0.25em;
 					}
 
@@ -2093,6 +2092,9 @@ input, select, textarea {
 					#main > .panel.intro header h1 {
 						line-height: 1.25em;
 						margin-bottom: 0;
+						font-family:fantasy;
+						text-align: center;
+						font-size: 350%;
 					}
 
 					#main > .panel.intro header p {
