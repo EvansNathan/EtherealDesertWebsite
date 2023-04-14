@@ -2102,6 +2102,99 @@ input, select, textarea {
 						font-size: 1.25em;
 						margin: 0.25em 0 0 0;
 					}
+			#main > .panel.about {
+				padding: 0;
+				display: flow;
+				flex-direction: row;
+				align-items: center;
+			}
+				#main > .panel.about header {
+					flex-grow: 1;
+					flex-shrink: 1;
+					padding: 2.5em 2.5em;
+					margin-bottom: 0;
+					width: 100%;
+				}
+					#main > .panel.about header h1{
+						margin-bottom: .5em;
+						font-family: fantasy;
+						text-align: center;
+						font-size: 350%;
+					}
+					#main > .panel.about header h2{
+						margin-bottom: 0;
+						font-family: "Franklin Gothic Medium", fantasy;
+						text-align: left;
+						font-size: 150%;
+					}
+				#main > .panel.about p{
+					flex-grow: 1;
+					flex-shrink: 1;
+					padding: 0 2.5em 2.5em;
+					margin-bottom: 0;
+					width: 100%;
+					font-family: "Luminari", serif;
+					color: black;
+				}
+
+			#main > .panel.game {
+				padding: 0;
+				display: flow;
+				flex-direction: row;
+				align-items: center;
+			}
+				#main > .panel.game header {
+					flex-grow: 1;
+					flex-shrink: 1;
+					padding: 2.5em 2.5em;
+					margin-bottom: 0;
+					width: 100%;
+				}
+					#main > .panel.game header h1{
+						margin-bottom: .5em;
+						font-family: fantasy;
+						text-align: center;
+						font-size: 350%;
+					}
+					#main > .panel.game header h2{
+						margin-bottom: 0;
+						font-family: "Franklin Gothic Medium", fantasy;
+						text-align: left;
+						font-size: 150%;
+					}
+					#main > .panel.game header h3{
+						margin-bottom: 0;
+						padding: 1em 1em 0 1em;
+						font-family: "Franklin Gothic Medium", fantasy;
+						text-align: left;
+						font-size: 100%;
+						text-decoration: underline;
+					}
+					#main > .panel.game header p{
+						flex-grow: 1;
+						flex-shrink: 1;
+						padding: 0 1em 1em;
+						margin-bottom: 0;
+						width: 100%;
+						font-family: "Luminari", serif;
+						color: black;
+					}
+					#main > .panel.game .image-container {
+						display: flex !important;
+						flex-wrap: wrap !important;
+						justify-content: space-between !important;
+					}
+						#main > .panel.game .image-container img{
+							max-width: 100% !important;
+							height: auto !important;
+							object-fit: contain !important;
+							max-height: 400px;
+						}
+
+
+
+
+
 
 				@media screen and (max-width: 980px) {
 
