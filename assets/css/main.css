@@ -2092,7 +2092,7 @@ input, select, textarea {
 					#main > .panel.intro header h1 {
 						line-height: 1.25em;
 						margin-bottom: 0;
-						font-family:fantasy;
+						font-family:fantasy, Monospace, sans-serif;
 						text-align: center;
 						font-size: 350%;
 						font-weight: normal;
@@ -2119,7 +2119,7 @@ input, select, textarea {
 				}
 					#main > .panel.about header h1{
 						margin-bottom: .5em;
-						font-family: fantasy;
+						font-family: fantasy, Monospace, sans-serif;
 						text-align: center;
 						font-size: 350%;
 						font-weight: normal;
@@ -2127,7 +2127,7 @@ input, select, textarea {
 					}
 					#main > .panel.about header h2{
 						margin-bottom: .5em;
-						font-family: "Franklin Gothic Medium", fantasy;
+						font-family: "Franklin Gothic Medium", fantasy, Monospace, sans-serif;
 						text-align: left;
 						font-size: 150%;
 						text-decoration: underline;
@@ -2137,7 +2137,7 @@ input, select, textarea {
 					#main > .panel.about header h3{
 						margin-bottom: 0;
 						padding: 0em 1em 0 1em;
-						font-family: "Franklin Gothic Medium", fantasy;
+						font-family: "Franklin Gothic Medium", fantasy, Monospace, sans-serif;
 						text-align: left;
 						font-size: 100%;
 						font-weight: normal;
@@ -2149,7 +2149,7 @@ input, select, textarea {
 					padding: 0 2.5em 2.5em;
 					margin-bottom: 0;
 					width: 100%;
-					font-family: "Luminari", serif;
+					font-family: "Luminari", Monospace, sans-serif;
 					color: black;
 					font-weight: normal;
 					font-style: normal;
@@ -2170,7 +2170,7 @@ input, select, textarea {
 				}
 					#main > .panel.game header h1{
 						margin-bottom: .5em;
-						font-family: fantasy;
+						font-family: fantasy, Monospace, sans-serif;
 						text-align: center;
 						font-size: 350%;
 						font-weight: normal;
@@ -2178,7 +2178,7 @@ input, select, textarea {
 					}
 					#main > .panel.game header h2{
 						margin-bottom: 0;
-						font-family: "Franklin Gothic Medium", fantasy;
+						font-family: "Franklin Gothic Medium", fantasy, Monospace, sans-serif;
 						text-align: left;
 						font-size: 150%;
 						font-weight: normal;
@@ -2187,7 +2187,7 @@ input, select, textarea {
 					#main > .panel.game header h3{
 						margin-bottom: 0;
 						padding: 0em 1em 0 1em;
-						font-family: "Franklin Gothic Medium", fantasy;
+						font-family: "Franklin Gothic Medium", fantasy, Monospace, sans-serif;
 						text-align: left;
 						font-size: 100%;
 						text-decoration: underline;
@@ -2200,7 +2200,7 @@ input, select, textarea {
 						padding: 0 1em 1em;
 						margin-bottom: 0;
 						width: 100%;
-						font-family: "Luminari", serif;
+						font-family: "Luminari", Monospace, sans-serif;
 						color: black;
 						font-weight: normal;
 						font-style: normal;
@@ -2221,7 +2221,7 @@ input, select, textarea {
 				}
 					#main > .panel.resources header h1{
 						margin-bottom: .5em;
-						font-family: fantasy;
+						font-family: fantasy, Monospace, sans-serif;
 						text-align: center;
 						font-size: 350%;
 						font-weight: normal;
@@ -2229,7 +2229,7 @@ input, select, textarea {
 					}
 					#main > .panel.resources header h2{
 						margin-bottom: 0;
-						font-family: "Franklin Gothic Medium", fantasy;
+						font-family: "Franklin Gothic Medium", fantasy, Monospace, sans-serif;
 						text-align: left;
 						font-size: 150%;
 						font-weight: normal;
@@ -2238,7 +2238,7 @@ input, select, textarea {
 					#main > .panel.resources header h3{
 						margin-bottom: 0;
 						padding: 0em 1em 0 1em;
-						font-family: "Franklin Gothic Medium", fantasy;
+						font-family: "Franklin Gothic Medium", fantasy, Monospace, sans-serif;
 						text-align: left;
 						font-size: 100%;
 						text-decoration: underline;
@@ -2251,7 +2251,7 @@ input, select, textarea {
 						padding: 0 1em 1em;
 						margin-bottom: 0;
 						width: 100%;
-						font-family: "Luminari", serif;
+						font-family: "Luminari", Monospace, sans-serif;
 						color: black;
 						font-weight: normal;
 						font-style: normal;
